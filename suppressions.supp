@@ -529,6 +529,13 @@
 
 {
    name
+   Memcheck:Value4
+   fun:*
+   obj:/usr/lib64/libGL.so*
+}
+
+{
+   name
    Memcheck:Value2
    fun:*
    obj:/usr/lib64/mesa/i965_dri.so*
@@ -540,6 +547,13 @@
    Memcheck:Addr4
    fun:*
    obj:/usr/lib64/mesa/i965_dri.so*
+}
+
+{
+   name
+   Memcheck:Addr4
+   fun:*
+   obj:/usr/lib64/libGL.so*
 }
 
 {
