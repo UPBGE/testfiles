@@ -576,3 +576,116 @@
    fun:*
    obj:/usr/lib64/mesa/i965_dri.so*
 }
+<<<<<<< HEAD
+=======
+
+{
+   name
+   Memcheck:Value8
+   fun:*
+   obj:/usr/lib64/dri/i965_dri.so*
+}
+
+{
+   name
+   Memcheck:Value4
+   obj:/usr/lib64/dri/i965_dri.so*
+}
+
+{
+   name
+   Memcheck:Value2
+   obj:/usr/lib64/dri/i965_dri.so*
+}
+
+
+{
+   name
+   Memcheck:Addr4
+   obj:/usr/lib64/dri/i965_dri.so*
+}
+
+{
+   name
+   Memcheck:Addr8
+   obj:/usr/lib64/dri/i965_dri.so*
+}
+
+{
+   name
+   Memcheck:Addr2
+   obj:/usr/lib64/dri/i965_dri.so*
+}
+
+{
+   name
+   Memcheck:Addr1
+   obj:/usr/lib64/dri/i965_dri.so*
+}
+
+{
+   name
+   Memcheck:Free
+   obj:/usr/lib64/dri/i965_dri.so*
+}
+
+{
+   name
+   Memcheck:Cond
+   obj:/usr/lib64/dri/i965_dri.so*
+}
+
+{
+   name
+   Memcheck:Leak
+   obj:/usr/lib64/dri/i965_dri.so*
+}
+
+{
+   name
+   Memcheck:Addr1
+   obj:/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so*
+}
+
+{
+   name
+   Memcheck:Addr2
+   obj:/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so*
+}
+
+{
+   name
+   Memcheck:Addr4
+   obj:/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so*
+}
+
+{
+   name
+   Memcheck:Addr8
+   obj:/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so*
+}
+
+{
+   name
+   Memcheck:Value1
+   obj:/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so*
+}
+
+{
+   name
+   Memcheck:Value2
+   obj:/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so*
+}
+
+{
+   name
+   Memcheck:Value4
+   obj:/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so*
+}
+
+{
+   name
+   Memcheck:Value8
+   obj:/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so*
+}
+>>>>>>> temp
